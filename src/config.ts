@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "zidian",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets\home\home2.png",
+		icon: "public\assets\home\home2.png",
 		// 网站Logo图片路径
-		//logo: "assets\home\main-log.png",
+		logo: "public\assets\home\main-log.png",
 	},
 
 	// 页面自动缩放配置
@@ -150,9 +150,9 @@ export const siteConfig: SiteConfig = {
 			title: "", // 主页横幅主标题
 
 			subtitle: [
-				"你已经不会再爱我",
-				"也不会再需要我",
-				"于是乎我就这样孤零零一人",
+				"没有什么能成为永恒",
+				"所以才要让此时此刻",
+				"过得有意义",
 				//"",
 				//"",
 			],
@@ -258,7 +258,7 @@ export const navBarConfig: NavBarConfig = {
 					name: "steam",
 					url: "https://steamcommunity.com/profiles/76561199357318971/",
 					external: true,
-					icon: "fa6-brands:github",
+					icon: "mdi:steam",
 				},
 				{
 					name: "Bilibili 1",
@@ -271,6 +271,36 @@ export const navBarConfig: NavBarConfig = {
 					url: "https://space.bilibili.com/81551558?spm_id_from=333.1387.fans.user_card.click",
 					external: true,
 					icon: "fa6-brands:bilibili",
+				},
+				{
+					name: "OSU！",
+					url: "https://osu.ppy.sh/users/34530752",
+					external: true,
+					icon: "simple-icons:osu",
+				},
+				{
+					name: "X",
+					url: "https://x.com/dianzi145610",
+					external: true,
+					icon: "prime:twitter",
+				},
+				{
+					name: "heybox",
+					url: "https://www.xiaoheihe.cn/app/user/profile",
+					external: true,
+					icon: "fluent:box-32-regular",
+				},
+				{
+					name: "Pixiv",
+					url: "https://www.pixiv.net/users/96202718",
+					external: true,
+					icon: "fa6-brands:pixiv",
+				},
+				{
+					name: "VRChat",
+					url: "https://vrchat.com/home/user/usr_bf1c432d-7155-42f7-a540-2ea3eab2da57",
+					external: true,
+					icon: "simple-icons:vrchat",
 				},
 			],
 		},
@@ -300,9 +330,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets\images\avatar3.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "zdiian",
-	bio: "仿佛这个世界只剩下你我二人,却只不是我做的一场短暂的梦",
+	bio: "仿佛这个世界只剩下你我二人,\n却只不是我做的一场短暂的梦",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -321,17 +351,12 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/zdiian",
 		},
 		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
-		},
-		{
-			name: "Discord",
-			icon: "fa6-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			name: "X",
+			icon: "prime:twitter",
+			url: "https://x.com/dianzi145610",
 		},
 	],
 };
