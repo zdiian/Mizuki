@@ -1,7 +1,7 @@
 {
 	"buildCommand": "pnpm build",
 	"outputDirectory": "dist",
-	"installCommand": "pnpm install --shamefully-hoist --no-frozen-lockfile --ignore-optional",
+	"installCommand": "pnpm install --shamefully-hoist --no-frozen-lockfile",
 	"framework": "astro",
 	"headers": [
 		{
