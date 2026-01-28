@@ -5,19 +5,12 @@
 			"CC": "gcc",
 			"CXX": "g++",
 			"PYTHON": "/usr/bin/python3",
-
 			"BUILT_IN_PREINSTALL": "apt-get update -y && apt-get install -y build-essential python3 make gcc g++ libc6-dev pkg-config"
 		},
-
 		"installCommand": "pnpm install --shamefully-hoist --no-frozen-lockfile --ignore-optional",
-
 		"buildCommand": "pnpm vercel-build"
 	},
 	"functions": {
 		"nodeVersion": "24.x"
-	},
-
-	"cache": {
-		"paths": ["!node_modules", "!.pnpm-store"]
 	}
 }
