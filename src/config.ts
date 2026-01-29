@@ -330,7 +330,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "src\assets\images\avatar3.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "src/assets/images/avatar3.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "zdiian",
 	bio: "仿佛这个世界只剩下你我二人,\n却只不是我做的一场短暂的梦",
 	typewriter: {
@@ -355,7 +355,7 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "X",
-			icon: "prime:twitter",
+			icon: "fa6-brands:x-twitter",
 			url: "https://x.com/dianzi145610",
 		},
 	],
