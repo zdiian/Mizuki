@@ -23,7 +23,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
 	title: "zdiian",
-	subtitle: "it's my world",
+	subtitle: "It's my world",
 	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-01-22", // 站点开始运行日期，用于站点统计组件计算运行天数
 
@@ -54,10 +54,10 @@ export const siteConfig: SiteConfig = {
 		mode: "logo",
 		// 顶栏标题文本
 		text: "zidian",
-		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "public/assets/home/home2.png",
+		// 顶栏标题图标路径，默认使用 public/assets/home/home2.png
+		icon: "public/assets/home/透明z.png",
 		// 网站Logo图片路径
-		logo: "public/assets/home/main-log.png",
+		logo: "public/assets/home/再版main-log.png",
 	},
 
 	// 页面自动缩放配置
@@ -110,7 +110,7 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/8.webp",
 				"/assets/desktop-banner/9.webp",
 				"/assets/desktop-banner/10.webp",
-				"/assets/desktop-banner/5.webp",
+				"/assets/desktop-banner/12.png",
 				"/assets/desktop-banner/6.webp",
 			], // 桌面横幅图片
 			mobile: [
@@ -150,11 +150,16 @@ export const siteConfig: SiteConfig = {
 			title: "", // 主页横幅主标题
 
 			subtitle: [
-				"没有什么能成为永恒",
-				"所以才要让此时此刻",
-				"过得有意义",
-				//"",
-				//"",
+				"把那日往昔放进我的口袋",
+				"我将挥别你我相伴的时光",
+				"但还会在梦中想起",
+				"那天与你的幸福",
+				"将回忆承载于泪水之中",
+				"似要将至今的美好 尽数流尽",
+				"从口袋里握紧明天",
+				"开始结束你我相伴的时光吧",
+				"但还会在梦中回想起",
+				"将那日的幸福，当做精神食粮",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -224,6 +229,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/desktop-banner/4.webp",
 			"/assets/desktop-banner/5.webp",
 			"/assets/desktop-banner/6.webp",
+			"/assets/desktop-banner/12.png",
 		], // 桌面横幅图片
 		mobile: [
 			"/assets/mobile-banner/1.webp",
@@ -322,7 +328,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar3.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "zdiian",
-	bio: "仿佛这个世界只剩下你我二人,\n却只不是我做的一场短暂的梦",
+	bio: "仿佛这个世界只剩下你我二人\n却只不是我做的一场短暂的梦",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
