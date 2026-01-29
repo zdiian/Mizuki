@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "zidian",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "public\assets\home\home2.png",
+		icon: "public/assets/home/home2.png",
 		// 网站Logo图片路径
-		logo: "public\assets\home\main-log.png",
+		logo: "public/assets/home/main-log.png",
 	},
 
 	// 页面自动缩放配置
@@ -272,24 +272,14 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
-				{
-					name: "OSU！",
-					url: "https://osu.ppy.sh/users/34530752",
-					external: true,
-					icon: "simple-icons:osu",
-				},
+
 				{
 					name: "X",
 					url: "https://x.com/dianzi145610",
 					external: true,
-					icon: "prime:twitter",
+					icon: "fa6-brands:x-twitter",
 				},
-				{
-					name: "heybox",
-					url: "https://www.xiaoheihe.cn/app/user/profile",
-					external: true,
-					icon: "fluent:box-32-regular",
-				},
+
 				{
 					name: "Pixiv",
 					url: "https://www.pixiv.net/users/96202718",
